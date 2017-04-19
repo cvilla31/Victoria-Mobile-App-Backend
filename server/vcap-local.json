@@ -1,0 +1,69 @@
+{
+    "AdvancedMobileAccess": [
+        {
+            "credentials": {
+                "version": 3,
+                "clientId": "5179d5f7-a291-47fa-8890-37a4a0dac0ab",
+                "secret": "MWY5ZGYxMDktMWIyOC00ZmVkLWJmY2ItYTVhMTAxOWQzZGE5",
+                "tenantId": "a911b5ea-5f28-4e26-aa8a-6791f4a5020c",
+                "oauthServerUrl": "https://appid-oauth.ng.bluemix.net/oauth/v3/a911b5ea-5f28-4e26-aa8a-6791f4a5020c",
+                "profilesUrl": "https://appid-profiles.ng.bluemix.net"
+            },
+            "syslog_drain_url": null,
+            "label": "AdvancedMobileAccess",
+            "provider": null,
+            "plan": "Graduated tier",
+            "name": "Victoria-Mobile-App-Backend-AdvancedMobileAccess",
+            "tags": [
+                "security",
+                "Security",
+                "mobile",
+                "ibm_created"
+            ]
+        }
+    ],
+    "imfpush": [
+        {
+            "credentials": {
+                "appGuid": "12285288-aa78-4632-babb-ba268ef29927",
+                "url": "http://imfpush.ng.bluemix.net/imfpush/v1/apps/12285288-aa78-4632-babb-ba268ef29927",
+                "admin_url": "//mobile.ng.bluemix.net/imfpushdashboard/?appGuid=12285288-aa78-4632-babb-ba268ef29927",
+                "appSecret": "20b2e0bc-e70a-4316-beb5-290a467e5799",
+                "clientSecret": "d4b8fa22-5529-4be5-8841-80d3e2d64430"
+            },
+            "syslog_drain_url": null,
+            "label": "imfpush",
+            "provider": null,
+            "plan": "Basic",
+            "name": "Victoria-Mobile-App-Backend-imfpush",
+            "tags": [
+                "mobile",
+                "ibm_created",
+                "ibm_dedicated_public",
+                "lite"
+            ]
+        }
+    ],
+    "cloudantNoSQLDB": [
+        {
+            "credentials": {
+                "username": "010b1afa-26cd-4b43-b7a4-1e1b6b1272f6-bluemix",
+                "password": "f6793500b956c63030ef8da625149ec7e1c8a9b8f7db8981045b7869907bb9b5",
+                "host": "010b1afa-26cd-4b43-b7a4-1e1b6b1272f6-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://010b1afa-26cd-4b43-b7a4-1e1b6b1272f6-bluemix:f6793500b956c63030ef8da625149ec7e1c8a9b8f7db8981045b7869907bb9b5@010b1afa-26cd-4b43-b7a4-1e1b6b1272f6-bluemix.cloudant.com"
+            },
+            "syslog_drain_url": null,
+            "label": "cloudantNoSQLDB",
+            "provider": null,
+            "plan": "Lite",
+            "name": "Victoria-Mobile-App-Backend-cloudantNoSQLDB",
+            "tags": [
+                "data_management",
+                "ibm_created",
+                "lite",
+                "ibm_dedicated_public"
+            ]
+        }
+    ]
+}
