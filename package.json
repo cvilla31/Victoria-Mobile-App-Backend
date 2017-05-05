@@ -7,21 +7,29 @@
     "node": "4.*"
   },
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "test": "npm run lint",
+    "lint": "eslint .",
+    "autofix": "eslint --fix .",
+    "codecov": "npm run test && (codecov || true)",
+    "validate": "npm ls"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Bluemix/get-started-node"
+    "url": "https://github.com/cvilla31/Victoria-Mobile-App-Backend"
   },
   "dependencies": {
-    "bluemix-appid": "^1.0.3",
-    "passport": "^0.3.2",
-    "bms-mca-oauth-sdk": "^3.0.3",
     "body-parser": "^1.16.1",
     "cfenv": "^1.0.x",
     "dotenv": "^4.0.0",
     "express": "^4.14.1",
-    "iconv-lite": "^0.4.14"
+    "iconv-lite": "^0.4.14",
+    "express-session": "^1.15.2",
+    "connect-redis": "^3.2.0",
+    "uid2":"^0.0.3",
+    "assert":"^1.4.1",
+    "session-file-store": "^1.0.0",
+    "nconf":"^0.8.4"
   },
   "author": "Uxor IT",
   "license": "Apache-2.0"

@@ -4,7 +4,7 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: Victoria-Mobile-App-Backend
-  host: victoriamobile
+  host: tuhost
   disk_quota: 1024M
   services:
   - Victoria-Mobile-App-Backend-AdvancedMobileAccess
